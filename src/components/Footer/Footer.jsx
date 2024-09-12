@@ -1,8 +1,11 @@
 import React from 'react';
 import "../Footer/Footer.css";
+import MailIcon from '@mui/icons-material/Mail';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 export default function Footer() {
@@ -49,9 +52,61 @@ export default function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className='footer-about'></div>
-                <div className='footer-company'></div>
-                <div className='footer-question'></div>
+                <div className='footer-about'>
+                    <h2>About Us</h2>
+                    <ul>
+                        <li>
+                            <ArrowRightAltIcon style={{ color: "#e86ed0", marginRight: 15 }} />
+                            Our Story
+                        </li>
+                        <li>
+                            <ArrowRightAltIcon style={{ color: "#e86ed0", marginRight: 15 }} />
+                            Meet the team
+                        </li>
+                        <li>
+                            <ArrowRightAltIcon style={{ color: "#e86ed0", marginRight: 15 }} />
+                            Careers
+                        </li>
+                    </ul>
+                </div>
+                <div className='footer-company'>
+                    <h2>Company</h2>
+                    <ul>
+                        <li>
+                            <ArrowRightAltIcon style={{ color: "#e86ed0", marginRight: 15 }} />
+                            About Us
+                        </li>
+                        <li>
+                            <ArrowRightAltIcon style={{ color: "#e86ed0", marginRight: 15 }} />
+                            Press
+                        </li>
+                        <li>
+                            <ArrowRightAltIcon style={{ color: "#e86ed0", marginRight: 15 }} />
+                            Contact
+                        </li>
+                        <li>
+                            <ArrowRightAltIcon style={{ color: "#e86ed0", marginRight: 15 }} />
+                            Careers
+                        </li>
+                    </ul>
+                </div>
+                <div className='footer-question'>
+                    <h2>Have a Question?</h2>
+                    <ul>
+                        <li>
+                            <LocationOnIcon style={{ color: "#e86ed0", marginRight: 30 }} />
+                            203 Fake St. Mountain View, San Francisco, California, USA
+                        </li>
+                        <li>
+                            <LocalPhoneIcon style={{ color: "#e86ed0", marginRight: 30 }} />
+                            <a href="tel:+2 392 3929 210">+2 392 3929 210</a>
+                        </li>
+                        <li>
+                            <MailIcon style={{ color: "#e86ed0", marginRight: 30 }} />
+                            <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div></div>
         </footer>
