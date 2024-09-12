@@ -95,7 +95,7 @@ export default function Footer() {
                     <ul>
                         <li>
                             <LocationOnIcon style={{ color: "#e86ed0", marginRight: 30 }} />
-                            203 Fake St. Mountain View, San Francisco, California, USA
+                            <a href="#">203 Fake St. Mountain View, San Francisco, California, USA</a>
                         </li>
                         <li>
                             <LocalPhoneIcon style={{ color: "#e86ed0", marginRight: 30 }} />
@@ -108,7 +108,9 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-            <div></div>
+            <div className='footer-copyright'>
+                <p>Copyright ©2024 All rights reserved</p>
+            </div>
         </footer>
     )
 }

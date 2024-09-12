@@ -1,6 +1,6 @@
 footer {
     background: rgba(0, 0, 0, 0.02);
-    padding: 100px 150px;
+    padding: 150px 150px 110px 150px;
 }
 
 footer>.footer-main {
@@ -30,6 +30,7 @@ footer>.footer-main>.footer-uptown>.footer-uptown-social>ul {
 
 footer>.footer-main>.footer-uptown>.footer-uptown-social>ul>li {
     list-style-type: none;
+    cursor: pointer;
 }
 
 footer>.footer-main>.footer-community {
@@ -127,6 +128,24 @@ footer>.footer-main>.footer-question>ul>li {
     color: #e86ed0;
 }
 
+footer>.footer-main>.footer-question>ul>li>a {
+    color: #e86ed0;
+    text-decoration: none;
+}
+
 footer>.footer-main>.footer-question>ul>li:hover {
     transform: translateX(10px);
+}
+
+/* footer-copyright */
+footer>.footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(179, 179, 179);
+    padding-top: 40px;
+}
+
+footer>.footer-copyright>p {
+    font-size: 20px;
 }
